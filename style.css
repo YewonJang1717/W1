@@ -5,8 +5,8 @@
 }
 
 body {
-    background:lavender;
-    color: Indigo;
+    background:black;
+    color: lavender;
     font-size: 2vw;
     letter-spacing: 0.1px;
     word-spacing: 0.2em;
@@ -17,39 +17,53 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
+.song-myung-regular {
+  font-family: "Song Myung", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+
+p,
+summary,
 h1, 
-h2, 
-h3, 
+h2,  
 h4, 
 h5 {
-    color: indigo;
+    color: lavender;
+    font-family: "Song Myung", serif;
 }
+
 h2 {
-    border-bottom: 2px solid fuchsia;
-    color: fuchsia;
+    border-bottom: 2px solid lightsteelblue;
+    color: lightsteelblue;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    font-family: "Song Myung", serif;
 }
 
 ul li{
-    text-align: left;
-    color: black;
+    text-align: center;
+    color: lavender;
+    font-family: "Song Myung", serif;
 }
 
-ol li{
-    text-align: left;
-    color: black;
+h3 {
+    color: lightsteelblue;
+    font-family: "Song Myung", serif;
 }
 
 strong {
-    color: black;
+    color: lightyellow;
+    font-family: "Song Myung", serif;
 }
 
 a{
-    color: seagreen;
+    color: lavender;
+    font-family: "Song Myung", serif;
 }
 
 a:hover {
-    color:darkslateblue;
+    color:lightsteelblue;
+    font-family: "Song Myung", serif;
 }
