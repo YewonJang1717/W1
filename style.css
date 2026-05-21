@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -48,7 +49,6 @@ h2 {
 
 ul {
   display: inline-block;
-  list-style: none;
   color: lavender;
   font-family: "Song Myung", serif;
 }
