@@ -42,10 +42,15 @@ h2 {
     font-family: "Song Myung", serif;
 }
 
-ul li{
-    text-align: center;
-    color: lavender;
-    font-family: "Song Myung", serif;
+.ul-wrap {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  color: lavender;
+  font-family: "Song Myung", serif;
 }
 
 h3 {
@@ -64,6 +69,6 @@ a{
 }
 
 a:hover {
-    color:lightsteelblue;
+    color:lightyellow;
     font-family: "Song Myung", serif;
 }
