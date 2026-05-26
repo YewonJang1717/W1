@@ -5,8 +5,7 @@
 }
 
 body {
-    background:black;
-    color: lavender;
+    background-color: #c6a8fe;
     font-size: 2vw;
     letter-spacing: 0.1px;
     word-spacing: 0.2em;
@@ -17,47 +16,117 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
-.song-myung-regular {
-  font-family: "Song Myung", serif;
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bagel-fat-one-regular {
+  font-family: "Bagel Fat One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 
-p,
-summary,
-h1, 
-h2,  
-h4, 
-h5 {
-    color: lavender;
-    font-family: "Song Myung", serif;
+h1 {
+    color: rgb(242, 235, 185);
+    font-family: "Bagel Fat One", system-ui;
+}
+
+p {
+    color: rgb(242, 50, 130);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: "Jua", sans-serif;
 }
 
 h2 {
-    border-bottom: 2px solid lightsteelblue;
-    color: lightsteelblue;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-family: "Song Myung", serif;
+    color: rgb(242, 235, 185);
+    font-family: "Jua", sans-serif;
 }
-
 h3 {
-    color: lightsteelblue;
-    font-family: "Song Myung", serif;
+    color: rgb(242, 50, 130);
+    font-family: "Jua", sans-serif;
 }
-
 strong {
-    color: lightyellow;
-    font-family: "Song Myung", serif;
+    color: rgb(242, 50, 130);
+    font-family: "Jua", sans-serif;
 }
 
-a{
-    color: lavender;
-    font-family: "Song Myung", serif;
+a,
+summary {
+    color: rgb(242, 235, 185);
+    font-family: "Jua", sans-serif;
 }
 
 a:hover {
-    color:lightyellow;
-    font-family: "Song Myung", serif;
+    color: rgb(233, 122, 168);
+    font-family: "Jua", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c6a8fe;
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0;
+    width: 100%;
+    text-align: left;
+}
+.row1{
+    padding: 16px;
+    border: 1px solid #291a8c;
+    background-color: white;
+    font-family: "Bagel Fat One", system-ui;
+}
+
+.row2{
+    padding: 16px;
+    border: 1px solid #291a8c;
+    background-color: white;
+    font-family: "Bagel Fat One", system-ui;
+}
+.row3{
+    padding: 16px;
+    border: 1px solid #291a8c;
+    background-color: white;
+    font-family: "Bagel Fat One", system-ui;
+}
+.row4{
+    padding: 16px;
+    border: 1px solid #291a8c;
+    background-color: white;
+    font-family: "Bagel Fat One", system-ui;
+}
+.row5{
+    padding: 16px;
+    border: 1px solid #291a8c;
+    background-color: white;
+    font-family: "Bagel Fat One", system-ui;
+}
+.row6{
+    padding: 16px;
+    border: 1px solid #291a8c;
+    background-color: white;
+    font-family: "Bagel Fat One", system-ui;
+}
+.dreamed{
+    background-color: #de09ff;
+    color: white;
+    padding: 16px;
+    border: 1px solid #291a8c;
+    font-family: "Bagel Fat One", system-ui;
+}
+.null{
+    background-color: #dbbee0;
+    color: #816f82;
+    padding: 16px;
+    border: 1px solid #291a8c;
+    font-family: "Bagel Fat One", system-ui;
 }
