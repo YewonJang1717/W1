@@ -61,7 +61,7 @@ summary {
 }
 
 a:hover {
-    color: rgb(233, 122, 168);
+    color: rgb(242, 235, 185);
     font-family: "Jua", sans-serif;
 }
 
@@ -69,7 +69,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     background-color: #c6a8fe;
 }
 .table{
@@ -122,6 +122,7 @@ a:hover {
     padding: 16px;
     border: 1px solid #291a8c;
     font-family: "Bagel Fat One", system-ui;
+    cursor: pointer; text-decoration: none; color: inherit; display: block;
 }
 .null{
     background-color: #dbbee0;
@@ -130,3 +131,11 @@ a:hover {
     border: 1px solid #291a8c;
     font-family: "Bagel Fat One", system-ui;
 }
+
+.modal { display: none; position: fixed; inset: 0; background: #c6a8fe; z-index: 999; }
+.modal:target { display: flex; justify-content: center; align-items: center; }
+
+.modal-box { background: #c6a8fe; padding: 2rem; border-radius: 12px; max-width: 400px; width: 90%; position: relative; }
+.close { position: absolute; top: 1rem; right: 1rem; text-decoration: none; color: rgb(242, 235, 185); font-size: 1.2rem; }
+
+.modal-img { width: 100%; border-radius: 8px; margin-bottom: 0.8rem; }
