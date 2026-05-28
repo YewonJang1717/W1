@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #c6a8fe;
+    background-color: #e693d7;
     font-size: 2vw;
     letter-spacing: 0.1px;
     word-spacing: 0.2em;
@@ -70,7 +70,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 60vh;
-    background-color: #c6a8fe;
+    background-color: #e693d7;
 }
 .table{
     display: grid;
@@ -81,38 +81,38 @@ a:hover {
 }
 .row1{
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #8a054c;
     background-color: white;
     font-family: "Bagel Fat One", system-ui;
 }
 
 .row2{
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #8a054c;
     background-color: white;
     font-family: "Bagel Fat One", system-ui;
 }
 .row3{
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #8a054c;
     background-color: white;
     font-family: "Bagel Fat One", system-ui;
 }
 .row4{
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #8a054c;
     background-color: white;
     font-family: "Bagel Fat One", system-ui;
 }
 .row5{
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #8a054c;
     background-color: white;
     font-family: "Bagel Fat One", system-ui;
 }
 .row6{
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #a51261;
     background-color: white;
     font-family: "Bagel Fat One", system-ui;
 }
@@ -120,7 +120,7 @@ a:hover {
     background-color: #de09ff;
     color: white;
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #8a054c;
     font-family: "Bagel Fat One", system-ui;
     cursor: pointer; text-decoration: none; color: inherit; display: block;
 }
@@ -128,14 +128,14 @@ a:hover {
     background-color: #dbbee0;
     color: #816f82;
     padding: 16px;
-    border: 1px solid #291a8c;
+    border: 1px solid #8a054c;
     font-family: "Bagel Fat One", system-ui;
 }
 
-.modal { display: none; position: fixed; inset: 0; background: #c6a8fe; z-index: 999; }
+.modal { display: none; position: fixed; inset: 0; background: #e693d7; z-index: 999; }
 .modal:target { display: flex; justify-content: center; align-items: center; }
 
-.modal-box { background: #c6a8fe; padding: 2rem; border-radius: 12px; max-width: 400px; width: 90%; position: relative; }
+.modal-box { background: #e693d7; padding: 2rem; border-radius: 12px; max-width: 400px; width: 90%; position: relative; }
 .close { position: absolute; top: 1rem; right: 1rem; text-decoration: none; color: rgb(242, 235, 185); font-size: 1.2rem; }
 
 .modal-img { width: 100%; border-radius: 8px; margin-bottom: 0.8rem; }
